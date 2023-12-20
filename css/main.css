@@ -1,0 +1,12 @@
+@charset 'utf-8';
+html{font-family: 'Noto Sans KR', sans-serif;font-size:14px;}
+body{overflow-x:hidden;background:#fff;color:rgba(29,29,31);letter-spacing:-.05em;}
+p{line-height:1.6;}
+a{color:rgba(29,29,31);text-decoration:none;}
+.global-nav{height:44px;}
+.global-nav-links,.local-nav-links{display:flex;align-items:center;max-width:1000px;height:100%;margin:0 auto;}
+.global-nav-links{justify-content:space-between;}
+.local-nav{height:52px;border-bottom:1px solid #ddd;}
+.local-nav-links a{}
+.product-name{margin-right:auto;font-size:1.2rem;font-weight:900;}
+.local-nav-item:not(.product-name){margin-left:2em;font-size:0.8rem;}
